@@ -1,0 +1,15 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Ler e escrever para autenticados somente na collection doacoes
+    match /doacoes/{documentId} {
+      allow read, write: if request.auth != null;
+    }
+    
+    // Bloqueia todos
+    match /{document=**} {
+      allow read, write: if true; 
+    }
+  }
+}

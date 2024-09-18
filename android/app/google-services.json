@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "679416549110",
+    "project_id": "halley-14447",
+    "storage_bucket": "halley-14447.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679416549110:android:057781d8790816ba5ea6d7",
+        "android_client_info": {
+          "package_name": "com.envoy.halley"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679416549110-1r1sd3297imh7brb510rbkn31pmnm824.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL8Kgx-5eLpEFtRxkjeaRMqgenCsBWI6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679416549110-1r1sd3297imh7brb510rbkn31pmnm824.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "679416549110-u6k9bnmd9f4kktqbah8jp939drodf76a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.halley"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

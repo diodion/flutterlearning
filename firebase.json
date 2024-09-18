@@ -1,0 +1,46 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "halley-14447",
+          "appId": "1:679416549110:android:057781d8790816ba5ea6d7",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "halley-14447",
+          "configurations": {
+            "android": "1:679416549110:android:057781d8790816ba5ea6d7",
+            "ios": "1:679416549110:ios:716ed57ba23cad135ea6d7",
+            "macos": "1:679416549110:ios:716ed57ba23cad135ea6d7",
+            "web": "1:679416549110:web:ba8b54f600efd3625ea6d7",
+            "windows": "1:679416549110:web:bd55173fc435c7815ea6d7"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "serviceWorker": {
+      "skipWaiting": true
+    }
+  }
+}
